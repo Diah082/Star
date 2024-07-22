@@ -25,9 +25,9 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // Owner
 global.owner = [
+  ['6282326322300'],
   ['-'],
-  ['-'],
-  ['6295372305081', 'Owner', 'rizkylaksmanap@mail.id', true]
+  ['6282326322300', 'Owner', 'awanwengi64@gmail.com', true]
 ] // Put your number here
 global.mods = ['-'] // Moderator
 global.prems = ['-'] // Premium
@@ -75,11 +75,11 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'EMILY'
-  var sticker_author = 'EMILY'
+  var sticker_name = 'NEWBIE'
+  var sticker_author = 'NEWBIE'
 } else {
-  var sticker_name = 'EMILY'
-  var sticker_author = 'EMILY Bot'
+  var sticker_name = 'NEWBIE'
+  var sticker_author = 'NEWBIE BOT'
 }
 
 const file_exif = "lib/exif.json"
@@ -118,17 +118,17 @@ global.version = '5.0.3'
 global.sessionName = 'session'
 global.gcbot = 'https://chat.whatsapp.com'
 global.instagram = 'https://instagram.com/'
-global.namebot = 'EMILY'
+global.namebot = 'NEWBIE'
 global.thumb = 'https://iili.io/J5RBKOX.jpg'
 global.thumbnail = 'https://iili.io/J5RBKOX.jpg'
 global.myfile = fs.readFileSync(`./media/xfile.pdf`)
 global.thumb2 = fs.readFileSync('./media/thumbnail.mp4')
 global.qris = 'https://telegra.ph/file/bcb93fafb22f139ff1512.jpg'
 global.email = 'noemail@gmail.com'
-global.creator = "62895372305081@s.whatsapp.net"
-global.nomorbot = '-'
-global.nomorown = '62895372305081'
-global.pairingNumber = ''
+global.creator = "6282326322300@s.whatsapp.net"
+global.nomorbot = '6282326322300'
+global.nomorown = '6282326322300'
+global.pairingNumber = '6282326322300'
 
 // Harga Nokos
 global.nokosindo = '7000'
@@ -147,12 +147,12 @@ global.sig = '-'
 global.syt = '-'
 global.sgh = '-'
 global.sgc = 'https://chat.whatsapp.com'
-global.swa = 'https://wa.me/62895372305081'
+global.swa = 'https://wa.me/6282326322300'
 global.swb = '-' // Link Discord
 global.snh = 'https://nhentai.net/g/365296/' // Link nhentai
 
 // Pembayaran
-global.pdana = '~Not Found~'
+global.pdana = '087863446310'
 global.povo = '~Not Found~'
 global.pgopay = '~Not Found~'
 global.pulsa = '~Not Found~'
@@ -169,17 +169,17 @@ global.useMulti = true
 global.autoread = true
 
 // Watermark
-global.packname = 'EMILY - Wabot'
-global.author = 'RLP27'
-global.wm = 'EMILY - Bot'
-global.wm2 = 'EMILY Bot'
+global.packname = 'NEWBIE-BOT'
+global.author = 'NEWBIE'
+global.wm = 'NEWBIE-BOT'
+global.wm2 = 'NEWBIE-BOT'
 global.bottime = `Time: ${wktuwib}`
 global.botdate = `Date: ${week} ${date}\nTime: ${wktuwib}`
 global.titlebot = `${global.wm}`
 global.danied = 'A K S E S  K A M U  D I  T O L A K!!'
 global.done = '```Success...\nDont forget to donate```'
-global.packname = 'EMILY - Wabot'
-global.author = 'EMILY WhatsApp Bot'
+global.packname = 'NEWBIE-BOT'
+global.author = 'NEWBIE-STORE'
 global.nameown = 'Owner'
 global.wait = 'Wait a moment... '
 
