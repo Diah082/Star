@@ -86,7 +86,7 @@ loadDatabase = async function loadDatabase() {
 loadDatabase()
 
 const pairingCode = process.argv.includes("--pairing-code")
-const authFolder = `${opts._[0] || 'irull'}`
+const authFolder = `${opts._[0] || 'Newbie'}`
 global.isInit = !fs.existsSync(authFolder)
 const { state, saveCreds } = await useMultiFileAuthState(authFolder)
 
